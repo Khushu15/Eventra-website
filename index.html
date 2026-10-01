@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventra - Event Management</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Brand navigation, section links, ticket shortcut, and theme control. -->
+  <header class="navbar-container">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#home">
+          <img
+            src="assets/images/WhatsApp Image 2026-09-22 at 12.26.17 PM.jpeg"
+            alt="Eventra"
+            class="logo-image"
+          >
+          <span class="brand-name">Eventra</span>
+        </a>
+      </div>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="site-navigation">
+        <li><a href="#home" class="active">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#speakers">SPEAKERS</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#schedule">SCHEDULE</a></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="#contacts">CONTACTS</a></li>
+      </ul>
+      <div class="nav-btn">
+        <a href="#tickets" class="btn-ticket">✦ Get Tickets</a>
+      </div>
+      <button
+        class="theme-toggle"
+        type="button"
+        aria-label="Enable dark mode"
+        aria-pressed="false"
+      >
+        <span class="theme-icon">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Rotating festival photography with manual arrows and slide indicators. -->
+  <section class="hero" id="home">
+    <div class="hero-slides">
+      <div class="hero-slide hero-slide-one is-active"></div>
+      <div class="hero-slide hero-slide-two"></div>
+      <div class="hero-slide hero-slide-three"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <button class="hero-arrow hero-arrow-left" type="button" aria-label="Previous hero image">
+      &#10094;
+    </button>
+    <button class="hero-arrow hero-arrow-right" type="button" aria-label="Next hero image">
+      &#10095;
+    </button>
+    <div class="hero-content">
+      <p class="event-date">11 TO 20 OCTOBER 2026, PDSCT, PANNA ROAD, CHHATARPUR</p>
+      <h1>Where Every Beat<br>Becomes a Memory</h1>
+      <a href="#tickets" class="btn-hero">Buy Ticket</a>
+    </div>
+    <div class="hero-indicators">
+      <button class="hero-indicator is-active" type="button" aria-label="Show hero image 1"></button>
+      <button class="hero-indicator" type="button" aria-label="Show hero image 2"></button>
+      <button class="hero-indicator" type="button" aria-label="Show hero image 3"></button>
+    </div>
+  </section>
+
+  <main>
+    <!-- At-a-glance festival duration, talent, stages, and experience. -->
+    <section class="event-highlights">
+      <div><strong>10</strong><span>Days of music</span></div>
+      <div><strong>40+</strong><span>Artists & speakers</span></div>
+      <div><strong>3</strong><span>Curated stages</span></div>
+      <div><strong>1</strong><span>Unforgettable weekend</span></div>
+    </section>
+
+    <!-- Eventra introduction and a link to the programme. -->
+    <section class="content-section about-section" id="about">
+      <div class="about-image-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1100&q=85"
+          alt="Warmly lit tables prepared for an Eventra celebration"
+        >
+      </div>
+      <div class="about-content">
+        <div>
+          <p class="section-kicker">The Eventra experience</p>
+          <h2>A weekend built around the way live music feels.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            Eventra brings artists, independent creators, and curious people together for a thoughtful
+            celebration of sound, culture, and the city around us.
+          </p>
+          <p>
+            Move between intimate sessions, open-air performances, and conversations that stay with
+            you long after the final encore.
+          </p>
+          <a href="#schedule" class="text-link">Explore the programme →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- The vision and mission that shape the festival experience. -->
+    <section class="values-section" id="vision">
+      <div>
+        <p class="section-kicker">What guides us</p>
+        <h2>More than an event. A place to belong.</h2>
+      </div>
+      <div>
+        <span>01</span>
+        <h3>Our vision</h3>
+        <p>
+          To make live experiences more human, inclusive, and connected to the communities that bring
+          them to life.
+        </p>
+      </div>
+      <div>
+        <span>02</span>
+        <h3>Our mission</h3>
+        <p>
+          We create welcoming platforms where music, ideas, and people meet to spark memories that
+          last beyond the final song.
+        </p>
+      </div>
+    </section>
+
+    <!-- Production, talent, and community services offered by Eventra. -->
+    <section class="content-section services-section" id="services">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">What we bring to the table</p>
+          <h2>Everything you need for a remarkable event.</h2>
+        </div>
+      </div>
+      <div class="service-grid">
+        <article>
+          <div class="service-image service-one"></div>
+          <h3>Live event production</h3>
+          <p>
+            From stage design and sound to lighting and on-ground flow, we shape every detail into
+            one seamless experience.
+          </p>
+        </article>
+        <article>
+          <div class="service-image service-two"></div>
+          <h3>Artist and talent curation</h3>
+          <p>We connect audiences with fresh voices, memorable performers, and the right talent for every gathering.</p>
+        </article>
+        <article>
+          <div class="service-image service-three"></div>
+          <h3>Community experiences</h3>
+          <p>Workshops, conversations, food, and creative spaces designed to help people feel at home.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Profiles introduce the people planning and producing each event. -->
+    <section class="content-section team-section" id="team">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">The people behind the moments</p>
+          <h2>A team that cares about every detail.</h2>
+        </div>
+          <p>
+            Our planners, producers, and creative partners bring calm thinking and contagious energy
+            to every Eventra celebration.
+          </p>
+      </div>
+      <div class="team-grid">
+        <article class="team-member">
+          <div class="team-photo team-photo-one">
+            <img src="assets/images/Khushu_Linkedin_pfp.png" alt="Khushboo Chaurasia, event strategist">
+          </div>
+          <div class="team-info">
+            <span>Event strategist</span>
+            <h3>Khushboo Chaurasia</h3>
+            <p>
+              Shapes each celebration from the first idea to the final schedule, keeping every detail
+              thoughtful, personal, and beautifully coordinated.
+            </p>
+          </div>
+        </article>
+        <article class="team-member">
+          <div class="team-photo team-photo-two">
+            <img src="assets/images/Princi_Linkedin_PFP.png" alt="Princi Arjariya, creative and experience lead">
+          </div>
+          <div class="team-info">
+            <span>Creative and experience lead</span>
+            <h3>Princi Arjariya</h3>
+            <p>
+              Brings the visual details and guest experience together, creating welcoming spaces and
+              memorable moments that feel effortless.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Featured artists and the style of each performance. -->
+    <section class="content-section speakers-section" id="speakers">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">The line-up</p>
+          <h2>Voices worth showing up for.</h2>
+        </div>
+      </div>
+      <div class="speaker-grid">
+        <article>
+          <div class="speaker-image speaker-one"></div>
+          <div>
+            <span>Headliner</span>
+            <h3>Ritviz</h3>
+            <p>Electronic pop, live and luminous.</p>
+          </div>
+        </article>
+        <article>
+          <div class="speaker-image speaker-two"></div>
+          <div>
+            <span>Live set</span>
+            <h3>Prateek Kuhad</h3>
+            <p>Stories in their softest form.</p>
+          </div>
+        </article>
+        <article>
+          <div class="speaker-image speaker-three"></div>
+          <div>
+            <span>Conversation</span>
+            <h3>Anuv Jain</h3>
+            <p>Songwriting, craft, and honesty.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Festival and community photography gallery. -->
+    <section class="content-section gallery-section" id="gallery">
+      <div class="section-heading">
+        <p class="section-kicker">From the community</p>
+        <h2>Moments from campus life.</h2>
+      </div>
+      <div class="gallery-grid">
+        <img
+          src="https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?auto=format&fit=crop&w=1200&q=85"
+          alt="Students enjoying a live event"
+        >
+        <img
+          src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=85"
+          alt="Crowd at a festival"
+        >
+        <img
+          src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=900&q=85"
+          alt="Stage lights"
+        >
+        <img
+          src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=85"
+          alt="Music performance"
+        >
+      </div>
+    </section>
+
+    <!-- Day tabs let visitors browse performances without leaving the page. -->
+    <section class="content-section schedule-section" id="schedule">
+      <div class="section-heading">
+        <p class="section-kicker">Plan your visit</p>
+        <h2>Pick a day. Find your rhythm.</h2>
+      </div>
+      <div class="schedule-tabs">
+        <button class="schedule-tab is-active" data-day="one">11 Oct <span>Friday</span></button>
+        <button class="schedule-tab" data-day="two">12 Oct <span>Saturday</span></button>
+        <button class="schedule-tab" data-day="three">13 Oct <span>Sunday</span></button>
+      </div>
+      <div class="schedule-panel is-active" id="one">
+        <p><time>05:00 PM</time><strong>Doors open</strong> Find your people and take in the grounds.</p>
+        <p><time>07:30 PM</time><strong>Ritviz</strong> A bright, high-energy opening set.</p>
+      </div>
+      <div class="schedule-panel" id="two" hidden>
+        <p><time>08:00 PM</time><strong>Prateek Kuhad</strong> An intimate live set under the open sky.</p>
+      </div>
+      <div class="schedule-panel" id="three" hidden>
+        <p><time>07:00 PM</time><strong>Anuv Jain</strong> Close the weekend with songs that leave room to breathe.</p>
+      </div>
+    </section>
+
+    <!-- Three ticket tiers provide day, full-festival, and backstage access. -->
+    <section class="content-section tickets-section" id="tickets">
+      <div class="section-heading">
+        <p class="section-kicker">Choose your access</p>
+        <h2>There is a place for every kind of weekend.</h2>
+      </div>
+      <div class="ticket-grid">
+        <article>
+          <span>Day pass</span>
+          <h3>One good day</h3>
+          <p>Entry for any one festival day, including all open stages.</p>
+          <strong>₹1,499</strong>
+          <a href="#register">Choose day pass →</a>
+        </article>
+        <article class="featured">
+          <span>Most popular</span>
+          <h3>Full festival</h3>
+          <p>Three days of music, conversations, and the complete Eventra experience.</p>
+          <strong>₹3,499</strong>
+          <a href="#register">Choose full pass →</a>
+        </article>
+        <article>
+          <span>Inner circle</span>
+          <h3>Backstage pass</h3>
+          <p>Priority access, artist lounge entry, and a keepsake wristband.</p>
+          <strong>₹6,999</strong>
+          <a href="#register">Choose backstage →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Expandable answers cover common visit and ticket questions. -->
+    <section class="content-section faq-section" id="blog">
+      <div class="section-heading">
+        <p class="section-kicker">Good to know</p>
+        <h2>Questions, answered.</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Where is Eventra taking place?</summary>
+          <p>Eventra takes place at PDSCT, Panna Road, Chhatarpur, Madhya Pradesh.</p>
+        </details>
+        <details>
+          <summary>Can I transfer my pass?</summary>
+          <p>Yes. Passes can be transferred once, up to 48 hours before the event.</p>
+        </details>
+        <details>
+          <summary>Are children allowed?</summary>
+          <p>Guests aged 12 and above are welcome with a responsible adult.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Sample guest reviews with ratings and carousel controls. -->
+    <section class="content-section feedback-section" id="feedback">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Guest stories</p>
+          <h2>Good nights stay with us.</h2>
+        </div>
+        <p>Sample feedback from guests who came for the music and stayed for the memories.</p>
+      </div>
+
+      <div class="feedback-carousel" aria-label="Guest feedback carousel">
+        <div class="feedback-slides" aria-live="polite">
+          <article class="feedback-slide is-active" aria-hidden="false">
+            <div class="feedback-photo">
+              <img
+                src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1000&q=85"
+                alt="Festival crowd enjoying a live music performance"
+                loading="lazy"
+              >
+            </div>
+            <div class="feedback-copy">
+              <p class="feedback-rating" aria-label="5 out of 5 stars">
+                <span aria-hidden="true">★★★★★</span>
+                <strong>5.0</strong>
+              </p>
+              <blockquote>
+                “The music, the people, the atmosphere: everything felt warm and thoughtfully put
+                together. I went home already hoping to come back.”
+              </blockquote>
+              <div class="feedback-author">
+                <strong>Aarav Mehta</strong>
+                <span>Festival guest</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="feedback-slide" aria-hidden="true" hidden>
+            <div class="feedback-photo">
+              <img
+                src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1000&q=85"
+                alt="Audience watching a colorful outdoor stage"
+                loading="lazy"
+              >
+            </div>
+            <div class="feedback-copy">
+              <p class="feedback-rating" aria-label="5 out of 5 stars">
+                <span aria-hidden="true">★★★★★</span>
+                <strong>5.0</strong>
+              </p>
+              <blockquote>
+                “The schedule made it easy to find new artists, and every stage had its own
+                character. A lovely weekend with friends.”
+              </blockquote>
+              <div class="feedback-author">
+                <strong>Meera Sharma</strong>
+                <span>Festival guest</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="feedback-slide" aria-hidden="true" hidden>
+            <div class="feedback-photo">
+              <img
+                src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=85"
+                alt="Friends sharing a moment at an evening festival"
+                loading="lazy"
+              >
+            </div>
+            <div class="feedback-copy">
+              <p class="feedback-rating" aria-label="5 out of 5 stars">
+                <span aria-hidden="true">★★★★★</span>
+                <strong>5.0</strong>
+              </p>
+              <blockquote>
+                “From the first set to the last song, it felt welcoming and full of life. One of
+                those evenings you keep talking about.”
+              </blockquote>
+              <div class="feedback-author">
+                <strong>Rohan Patel</strong>
+                <span>Festival guest</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="feedback-controls">
+          <button class="feedback-arrow feedback-arrow-left" type="button" aria-label="Previous review">
+            &#10094;
+          </button>
+          <div class="feedback-indicators" aria-label="Choose a review">
+            <button class="feedback-indicator is-active" type="button" aria-label="Show review 1" aria-current="true"></button>
+            <button class="feedback-indicator" type="button" aria-label="Show review 2" aria-current="false"></button>
+            <button class="feedback-indicator" type="button" aria-label="Show review 3" aria-current="false"></button>
+          </div>
+          <button class="feedback-arrow feedback-arrow-right" type="button" aria-label="Next review">
+            &#10095;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enquiry form and embedded map help visitors contact and find Eventra. -->
+    <section class="contact-section" id="contacts">
+      <div class="contact-form-wrap">
+        <p class="section-kicker">Let’s make it happen</p>
+        <h2>Tell us about your event.</h2>
+        <p class="contact-intro">
+          Have a date in mind or just a feeling? Share a few details and the Eventra team will get
+          back to you.
+        </p>
+        <form id="registration-form">
+          <label for="full-name">Your name</label>
+          <input id="full-name" name="name" type="text" placeholder="Your name" required>
+          <label for="email-address">Email address</label>
+          <input id="email-address" name="email" type="email" placeholder="you@example.com" required>
+          <label for="event-type">Event type</label>
+          <select id="event-type" name="event-type" required>
+            <option value="" selected disabled>Choose an event type</option>
+            <option>Wedding</option>
+            <option>Corporate event</option>
+            <option>Birthday</option>
+            <option>Private celebration</option>
+          </select>
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" rows="4" placeholder="Tell us what you are planning"></textarea>
+          <button class="primary-button" type="submit">Send enquiry →</button>
+          <p class="form-message" role="status"></p>
+        </form>
+      </div>
+      <div class="map-wrap">
+        <div class="map-heading">
+          <p class="section-kicker">Find us here</p>
+          <h3>PDSCT, Panna Road</h3>
+          <p>Chhatarpur, Madhya Pradesh · India - 471001</p>
+        </div>
+        <iframe
+          title="Map showing Eventra location in Chhatarpur"
+          src="https://www.google.com/maps?q=PDSCT%2C%20Panna%20Road%2C%20Chhatarpur%2C%20Madhya%20Pradesh&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Eventra brand, navigation, social channels, and festival contact details. -->
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <h2>Event<span>ra</span></h2>
+      <p>Live music, thoughtful gatherings, and unforgettable experiences in Chhatarpur.</p>
+      <small>© 2026 Eventra. All rights reserved.</small>
+    </div>
+
+    <nav class="footer-navigation" aria-label="Footer navigation">
+      <h3>Quick links</h3>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#vision">Our vision</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#team">Our team</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#tickets">Tickets</a>
+        <a href="#feedback">Feedback</a>
+        <a href="#contacts">Contact</a>
+      </div>
+    </nav>
+
+    <div class="footer-social">
+      <h3>Stay connected</h3>
+      <div class="footer-social-links" aria-label="Eventra social channels">
+        <span role="img" aria-label="Instagram">◎</span>
+        <span role="img" aria-label="Facebook">f</span>
+        <span role="img" aria-label="YouTube">▶</span>
+        <span role="img" aria-label="LinkedIn">in</span>
+      </div>
+    </div>
+
+    <div class="footer-event-details">
+      <p class="footer-label">Festival dates</p>
+      <p class="footer-dates">11–20 October 2026</p>
+      <p class="footer-label">Venue</p>
+      <p>PDSCT, Panna Road<br>Chhatarpur, Madhya Pradesh<br>India - 471001</p>
+      <div class="footer-contact-links">
+        <a href="mailto:hello@eventra.in">hello@eventra.in</a>
+        <a href="tel:+919876543210">+91 98765 43210</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/javascipt.js"></script>
+</body>
+</html>
